@@ -18,6 +18,11 @@ int main()
     c(15);
     p1.check();
     cout << "\n";
+
+    for (int i=0; i<5; i++){
+        cout << i;
+    }
+    cout << endl;
     system("pause");
     goto test;
 }
